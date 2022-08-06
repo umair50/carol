@@ -1,0 +1,28 @@
+.footer-line {
+  border-width: 1px 0 0;
+  border-style: solid;
+  border-color: #ffffff;
+  width: 100%;
+  /* margin-left: -45px; */
+  margin-top: 29px;
+}
+.rights-reserved h2 {
+  font-family: "PoppinsLight";
+  font-size: small;
+  justify-content: flex-end;
+
+  color: #ffffff;
+}
+.rights-reserved {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 925px) {
+  .footer-line {
+    margin-top: -26px;
+  }
+  .rights-reserved h2 {
+    margin-right: 32px;
+  }
+}

@@ -1,0 +1,29 @@
+.footer-content h2 {
+  font-family: "jost";
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 24px;
+  margin-left: 30px;
+  margin-top: 35px;
+}
+.footer-content p {
+  font-family: "PoppinsLight";
+  font-size: 16px;
+  color: #ffffff;
+  padding: 33px;
+  margin-top: -44px;
+}
+@media (max-width: 925px) {
+  .footer-content h2 {
+    margin-left: 9px;
+  }
+  .footer-content p {
+    margin-left: -23px;
+    
+  }
+}
+@media (min-width: 926px) and (max-width: 1024px) {
+  .footer-content p {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,122 @@
+.footer-card-inner-container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(113, 83, 217, 0.7);
+  border: 2px solid #ffffff;
+  border-radius: 32px;
+  padding: 30px 40px;
+}
+.footer-card-inner-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer-card-inner-information-header h3 {
+  text-align: center;
+  font-family: "jost";
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.footer-card-inner-information-header h4 {
+  text-align: center;
+  margin-top: -24px;
+  color: #ffffff;
+  font-family: "PoppinsLight";
+}
+.inner-card-information {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.header-information h2 {
+  font-family: "jost";
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bolder;
+}
+.header-information-content {
+  width: 50px;
+}
+.header-information-content h2 {
+  font-family: "Poppins";
+  color: #f2f2f2;
+  font-size: 18px;
+  font-weight: bolder;
+}
+.btn-btn {
+  color: #191a1c;
+  width: 46px;
+  height: 28px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: "jost";
+}
+.line-information {
+  width: 100%;
+  margin-top: 2px;
+  border: 1px solid #f2f2f2;
+}
+
+.header-information1 h2 {
+  color: #f2f2f2;
+  font-family: "jost";
+  font-size: 18px;
+  font-weight: bolder;
+}
+.header-information1-footer h2 {
+  color: #f2f2f2;
+  font-family: "jost";
+  font-size: 18px;
+}
+
+.footer-heading h2 {
+  color: #f2f2f2;
+  font-family: "jost";
+  font-weight: bolder;
+  font-size: 18px;
+}
+.content-footer h2 {
+  color: #f2f2f2;
+  font-family: "jost";
+  font-size: 18px;
+}
+.minit-btn {
+  width: 100%;
+  padding: 11px;
+  margin: 10px 0px;
+  border: none;
+  background-color: #fd562a;
+  color: #f2f2f2;
+  font-size: 18px;
+  border-radius: 43px;
+  font-family: "jost";
+  font-weight: bolder;
+}
+.footer-box-information {
+  font-size: 14px;
+  /* margin; */
+  line-height: 15px;
+  font-family: "Poppins";
+  color: white;
+}
+.footer-box-information span {
+  color: #fd562a;
+  font-family: "Poppins";
+}
+.add-sub {
+  cursor: pointer;
+}
+@media (min-width: 926px) and (max-width: 1024px) {
+  .p-line {
+    line-height: 16px;
+  }
+}
+@media (max-width: 925px) {
+  /*  */
+  .p-line {
+    line-height: 20px;
+  }
+}

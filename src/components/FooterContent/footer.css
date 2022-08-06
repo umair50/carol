@@ -1,0 +1,58 @@
+.card-container-footer {
+  /* width: 1080px; */
+  /* height: 660px; */
+  border: none;
+  padding: 65px 50px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background: rgba(69, 38, 177, 0.8);
+  /* margin-left: -33px; */
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background-image: url("../../assets/hero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer-column1 {
+  width: 40%;
+}
+.footer-column2 {
+  width: 60%;
+  margin-top: 38px;
+}
+@media (min-width: 926px) and (max-width: 1024px) {
+  .card-container-footer {
+    padding: 60px 13px;
+  }
+  .footer-column1 {
+    width: 50%;
+    margin-left: 14px;
+  }
+  .footer-column2 {
+    width: 50%;
+    margin-top: 18px;
+  }
+}
+@media (max-width: 925px) {
+  .card-container-footer {
+    padding: 40px 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: none;
+    background: none;
+    margin-top: 0px;
+    background-image: none;
+    background-size: none;
+    background-repeat: none;
+  }
+  .footer-column1 {
+    width: 100%;
+  }
+  .footer-column2 {
+    width: 100%;
+    margin-top: 0px;
+  }
+}

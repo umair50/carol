@@ -1,0 +1,173 @@
+.card-container {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background: rgba(69, 38, 177, 0.8);
+  padding: 66px 44px 34px 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-image: url("../../assets/hero.png");
+  background-size: cover;
+}
+.line-mid {
+  width: 60px;
+  margin-left: 191px;
+  margin-top: -30px;
+  height: 6px;
+  background-color: #fd562a;
+  border: none;
+  display: none;
+}
+.first-card-content {
+  padding: 12px;
+  color: white;
+  font-family: "Poppins";
+}
+.card-heaading-main-content {
+  color: white;
+  font-size: 1em;
+  font-family: "Poppins";
+  /* font-weight: ; */
+  padding-left: 33px;
+  padding-top: 22px;
+}
+.card-heading-content {
+  margin-top: -58px;
+  font-size: larger;
+  font-family: "jost";
+  color: white;
+  padding-left: 34px;
+  font-size: larger;
+  font-weight: 700;
+}
+.column1 {
+  width: 70%;
+}
+.column2 {
+  width: 30%;
+}
+.line {
+  width: 30px;
+  margin-left: 2px;
+  margin-top: -30px;
+  height: 6px;
+  background-color: #fd562a;
+  border: none;
+}
+.image-nft {
+  width: 100%;
+  height: 100%;
+  /* margin-left: 35px; */
+}
+.card-buttons {
+  padding-left: 30px;
+  padding-top: 23px;
+}
+.btn-btn-first {
+  width: 227px;
+  height: 57px;
+  font-family: "jost";
+  color: white;
+  background-color: #fd562a;
+  border: none;
+  border-radius: 38px;
+  cursor: pointer;
+  font-size: medium;
+  margin-right: 20px;
+}
+.btn-btn-sec {
+  height: 57px;
+  width: 194px;
+  border: 2px solid #fd562a;
+  background: #4518b1;
+  color: white;
+  font-size: medium;
+  border-radius: 38px;
+  font-family: "jost";
+}
+
+/* For Media Quries */
+
+@media (min-width: 926px) and (max-width: 1024px) {
+  .card-container {
+    padding: 66px 44px 34px 20px;
+  }
+  .image-nft {
+    margin-left: 17px;
+  }
+  .card-heaading-main-content {
+    padding-left: 39px;
+    padding-top: 16px;
+  }
+}
+@media (max-width: 925px) {
+  .card-container {
+    margin: 23px 23px;
+    justify-content: center;
+    padding: 0px;
+  }
+  .line {
+    display: none;
+  }
+  .line-mid {
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    margin-left: 0px;
+    margin-top: -12px;
+    border-radius: 2px;
+    display: none;
+  }
+  .image-nft {
+    display: none;
+  }
+
+  .column1 {
+    width: 100%;
+  }
+  .card-heading-content {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 0px;
+    padding: 0px;
+  }
+  .column2 {
+    width: 0%;
+  }
+  .card-heaading-main-content {
+    padding-top: 18px;
+    padding-left: 9px;
+    text-align: center;
+    padding-right: 11px;
+    font-size: 0.9em;
+    font-family: "PoppinsLight";
+  }
+  .card-buttons {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 23px;
+    padding-top: 23px;
+    padding-right: 23px;
+
+    padding-left: 23px;
+  }
+  .btn-btn-first {
+    width: 179px;
+    height: 40px;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bolder;
+  }
+  .btn-btn-sec {
+    width: 152px;
+    height: 40px;
+    font-size: 12px;
+  }
+  .card-heading-content h1 {
+    font-size: 1.4em;
+    margin-top: 40px;
+    padding: 2.5px;
+  }
+}
